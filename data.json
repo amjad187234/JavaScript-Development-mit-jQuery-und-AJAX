@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Artikel 1",
+        "content": "Dies ist der Inhalt des ersten Artikels."
+    },
+    {
+        "title": "Artikel 2",
+        "content": "Dies ist der Inhalt des zweiten Artikels."
+    },
+    {
+        "title": "Artikel 3",
+        "content": "Dies ist der Inhalt des dritten Artikels."
+    }
+]

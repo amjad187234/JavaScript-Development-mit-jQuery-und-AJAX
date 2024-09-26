@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wetter, Nachrichten & Temperatur</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Development mit
+            jQuery und AJAX</h1>
+
+        <!-- Auswahlmenü -->
+        <label for="server-select">Datenquelle:</label>
+        <select id="server-select">
+            <option value="weather">Wetter & Temperatur</option>
+            <option value="news">Nachrichten</option>
+        </select>
+
+        <!-- Knopf zum Laden -->
+        <button id="loadDataBtn">Daten laden</button>
+
+        <!-- Ergebnisbereich -->
+        <div id="data-output"></div>
+    </div>
+</body>
+</html>
+
+
